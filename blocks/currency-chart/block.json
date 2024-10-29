@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "anbp-blocks/currency-chart",
+  "version": "0.1.0",
+  "title": "Currency Chart",
+  "category": "archive-nbp",
+  "icon": "chart-line",
+  "description": "Currency Chart Block for Archive NBP plugin",
+  "example": {},
+  "attributes": {
+    "currency": {
+      "type": "string",
+      "default": "2"
+    },
+    "date_begin": {
+      "type": "string",
+      "default": "2002-01-01"
+    },
+    "date_end": {
+      "type": "string",
+      "default": "2100-01-01"
+    }
+  },
+  "supports": {
+    "html": false,
+    "color": {
+      "background": true,
+      "text": true
+    }
+  },
+  "textdomain": "archive-nbp",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

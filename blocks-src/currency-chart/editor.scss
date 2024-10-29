@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.start-date-picker >, .end-date-picker > {
+	.components-flex {
+		.components-datetime__time > {
+			fieldset:first-of-type{
+				display: none;
+			}
+		}
+	} 
+}
+
+.block-editor-block-inspector {
+	.start-date-picker, .end-date-picker {
+		.components-datetime__time {
+			.components-base-control {
+				margin-bottom: 8px;
+			}
+		}
+	}
+}
+
+.currency-chart-admin {
+	padding: 2em;
+	background: #fafafa;
+}

@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NBP archive\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-12 15:15+0000\n"
+"PO-Revision-Date: 2024-08-12 16:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: archive-bnp\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);"
+
+#: inc/archive-bnp-class.php:385 inc/archive-bnp-class.php:389
+msgid " can't be less than "
+msgstr " nie może być mniejsza niż "
+
+#: inc/archive-bnp-class.php:387
+msgid " can't be more than "
+msgstr " nie może być więcej niż "
+
+#: blocks/currency-chart/render.php:31
+msgid " Currency Rates"
+msgstr " Kursy walut"
+
+#: blocks/currency-converter/render.php:19
+msgid " Exchange Converter, "
+msgstr " Konwerter walutowy, "
+
+#: blocks/last-rates/render.php:19
+msgid " Exchange Rates, "
+msgstr " Kursy wymiany, "
+
+#: inc/archive-bnp-class.php:383
+msgid " parameter is invalid"
+msgstr " parametr jest nieprawidłowy"
+
+#: inc/archive-bnp-class.php:331
+msgid " table doesn't exist."
+msgstr " tabela nie istnieje."
+
+#: blocks/currency-chart/render.php:26 blocks/currency-chart/render.php:31
+msgid " to "
+msgstr " do "
+
+#: inc/archive-bnp-class.php:105
+msgid "Archive BNP"
+msgstr "Archiwum NBP"
+
+#: blocks/currency-chart/block.json:1
+msgctxt "block description"
+msgid "Currency Chart Block for Archive BNP plugin"
+msgstr "Blok wykresu walutowego dla wtyczki Archive BNP"
+
+#: blocks/currency-converter/block.json:1
+msgctxt "block description"
+msgid "Currency Converter Block for Archive BNP plugin"
+msgstr "Blok przelicznika walut dla wtyczki Archive BNP"
+
+#: blocks/last-rates/block.json:1
+msgctxt "block description"
+msgid "Last Rates Block for Archive BNP plugin"
+msgstr "Blok ostatnich kursów walutowych dla wtyczki Archive BNP"
+
+#: blocks/currency-chart/block.json:1
+msgctxt "block title"
+msgid "Currency Chart"
+msgstr "Wykres walutowy"
+
+#: blocks/currency-converter/block.json:1
+msgctxt "block title"
+msgid "Currency Converter"
+msgstr "Przelicznik walut"
+
+#: blocks/last-rates/block.json:1
+msgctxt "block title"
+msgid "Last Rates"
+msgstr "Ostatnie kursy"
+
+#. Author URI of the plugin
+msgid "https://www.linkedin.com/in/ihar-dounar/"
+msgstr "https://www.linkedin.com/in/ihar-dounar/"
+
+#. Author of the plugin
+msgid "Ihar Dounar"
+msgstr "Ihar Dounar"
+
+#. Name of the plugin
+msgid "NBP archive"
+msgstr "Archiwum BNP"
+
+#. Description of the plugin
+msgid "NBP exchange rates archive."
+msgstr "Archiwum kursów walut BNP."
+
+#: inc/archive-bnp-class.php:383 inc/archive-bnp-class.php:385
+#: inc/archive-bnp-class.php:387 inc/archive-bnp-class.php:389
+msgid "The "
+msgstr " "
+
+#: inc/archive-bnp-class.php:391
+msgid "The start date can't be more than end date"
+msgstr "Data początkowa nie może być większa niż data końcowa"
+
+#: inc/archive-bnp-class.php:189
+msgid "There aren't BNP rates for insert to local database."
+msgstr "Nie ma walut NBP za wstawianie do lokalnej bazy danych."

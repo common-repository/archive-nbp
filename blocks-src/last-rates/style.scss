@@ -1,0 +1,53 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.current-rates {
+	max-width: 500px;
+	background: #fff;
+	th {
+		background: #aaa;
+		color: #fff;
+		padding: .25em 1em;
+	}
+	td{
+		text-align: center;
+		padding: .25em 1em;
+		&:nth-of-type(1){
+			font-weight: bold;
+		}
+		span{
+			position: relative;
+			&:after{
+					content: "";
+					position: absolute;
+					width: 22px; 
+    				height: 22px;
+					display: block;
+					left: -24px;
+					top: 0;
+					
+				}
+			&.diff-arrow-up{
+				color: #0f6e0f;
+				&::after{
+					background-image: url("data:image/svg+xml;base64,PHN2Zw0KICB3aWR0aD0iMjQiDQogIGhlaWdodD0iMjQiDQogIHZpZXdCb3g9IjAgMCAyNCAyNCINCiAgY29sb3I9IiMwZjZlMGYiDQogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyINCj4NCiAgPHBhdGgNCiAgICBkPSJNMTcuNjU2OCA4Ljk2MjE5TDE2LjIzOTMgMTAuMzczMUwxMi45ODQzIDcuMTAyODVMMTIuOTcwNiAyMC43MDc5TDEwLjk3MDYgMjAuNzA1OUwxMC45ODQzIDcuMTM4MDZMNy43NTQwNCAxMC4zNTMyTDYuMzQzMTQgOC45MzU3MkwxMi4wMTMyIDMuMjkyMTFMMTcuNjU2OCA4Ljk2MjE5WiINCiAgICBmaWxsPSJjdXJyZW50Q29sb3IiDQogIC8+DQo8L3N2Zz4=");
+				}
+			}
+			&.diff-arrow-down{
+				color: #ff0000;
+				&::after{
+					left: -21px;
+					background: url("data:image/svg+xml;base64,PHN2Zw0KICB3aWR0aD0iMjQiDQogIGhlaWdodD0iMjQiDQogIHZpZXdCb3g9IjAgMCAyNCAyNCINCiAgY29sb3I9IiNmMDAiDQogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyINCj4NCiAgPHBhdGgNCiAgICBkPSJNMTEuMDAwMSAzLjY3MTU3TDEzLjAwMDEgMy42NzE1N0wxMy4wMDAxIDE2LjQ5OTlMMTYuMjQyNiAxMy4yNTc0TDE3LjY1NjggMTQuNjcxNkwxMiAyMC4zMjg0TDYuMzQzMTQgMTQuNjcxNkw3Ljc1NzM1IDEzLjI1NzRMMTEuMDAwMSAxNi41MDAxTDExLjAwMDEgMy42NzE1N1oiDQogICAgZmlsbD0iY3VycmVudENvbG9yIg0KICAvPg0KPC9zdmc+");
+				}
+				
+			}
+		}
+	}
+	tr:nth-child(odd){
+		background: #eee;
+	}
+}

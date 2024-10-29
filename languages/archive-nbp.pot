@@ -1,0 +1,112 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NBP archive\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-12 15:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: archive-bnp"
+
+#: inc/archive-bnp-class.php:385 inc/archive-bnp-class.php:389
+msgid " can't be less than "
+msgstr ""
+
+#: inc/archive-bnp-class.php:387
+msgid " can't be more than "
+msgstr ""
+
+#: blocks/currency-chart/render.php:31
+msgid " Currency Rates"
+msgstr ""
+
+#: blocks/currency-converter/render.php:19
+msgid " Exchange Converter, "
+msgstr ""
+
+#: blocks/last-rates/render.php:19
+msgid " Exchange Rates, "
+msgstr ""
+
+#: inc/archive-bnp-class.php:383
+msgid " parameter is invalid"
+msgstr ""
+
+#: inc/archive-bnp-class.php:331
+msgid " table doesn't exist."
+msgstr ""
+
+#: blocks/currency-chart/render.php:26 blocks/currency-chart/render.php:31
+msgid " to "
+msgstr ""
+
+#: inc/archive-bnp-class.php:105
+msgid "Archive BNP"
+msgstr ""
+
+#: blocks/currency-chart/block.json:1
+msgctxt "block description"
+msgid "Currency Chart Block for Archive BNP plugin"
+msgstr ""
+
+#: blocks/currency-converter/block.json:1
+msgctxt "block description"
+msgid "Currency Converter Block for Archive BNP plugin"
+msgstr ""
+
+#: blocks/last-rates/block.json:1
+msgctxt "block description"
+msgid "Last Rates Block for Archive BNP plugin"
+msgstr ""
+
+#: blocks/currency-chart/block.json:1
+msgctxt "block title"
+msgid "Currency Chart"
+msgstr ""
+
+#: blocks/currency-converter/block.json:1
+msgctxt "block title"
+msgid "Currency Converter"
+msgstr ""
+
+#: blocks/last-rates/block.json:1
+msgctxt "block title"
+msgid "Last Rates"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.linkedin.com/in/ihar-dounar/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ihar Dounar"
+msgstr ""
+
+#. Name of the plugin
+msgid "NBP archive"
+msgstr ""
+
+#. Description of the plugin
+msgid "NBP exchange rates archive."
+msgstr ""
+
+#: inc/archive-bnp-class.php:383 inc/archive-bnp-class.php:385
+#: inc/archive-bnp-class.php:387 inc/archive-bnp-class.php:389
+msgid "The "
+msgstr ""
+
+#: inc/archive-bnp-class.php:391
+msgid "The start date can't be more than end date"
+msgstr ""
+
+#: inc/archive-bnp-class.php:189
+msgid "There aren't BNP rates for insert to local database."
+msgstr ""

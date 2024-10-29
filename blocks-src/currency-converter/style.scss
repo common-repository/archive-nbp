@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-anbp-blocks-currency-converter{
+	margin: 2em 0;
+}
+
+#converter-rates {
+	max-width: 500px;
+	& > div{
+		margin-bottom: 1em;
+		display: flex;
+		flex-direction: row;
+    	align-items: center;
+		justify-content: space-around;
+		input{
+			width: 80%;
+		}
+	}
+}

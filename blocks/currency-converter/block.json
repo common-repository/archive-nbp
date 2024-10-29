@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "anbp-blocks/currency-converter",
+  "version": "0.1.0",
+  "title": "Currency Converter",
+  "category": "archive-nbp",
+  "icon": "calculator",
+  "description": "Currency Converter Block for Archive NBP plugin",
+  "example": {},
+  "attributes": {
+    "selectedCurrencies": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "supports": {
+    "html": false,
+    "color": {
+      "background": true,
+      "text": true
+    }
+  },
+  "textdomain": "archive-nbp",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
